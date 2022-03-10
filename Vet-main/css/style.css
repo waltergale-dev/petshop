@@ -1,0 +1,464 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700;900&display=swap');
+
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+width: 1024px;
+height: 1807px;
+margin: auto;
+
+background: #FFFFFF;
+}
+header .reptangel-1{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 1024px;
+    height: 20px;
+    left: calc(50% - 1024px/2);
+    top: 0px;
+
+    background: #222222;
+}
+header .reptangel-1 .text-left{
+  
+    padding: 4px 0px 4px 70px;
+
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 10px;
+    line-height: 12px;
+
+
+color: #F3F3F3;
+
+}
+header .reptangel-1 .price{
+   display: flex;
+   justify-content: center;
+   align-items: center;
+
+}
+header .reptangel-1 .price .down-1{
+    width: 26px;
+    height: 12px;
+    margin-right: 36px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+    
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 10px;
+    line-height: 12px;
+    /* identical to box height */
+    
+    
+    color: #F3F3F3;
+}
+header .reptangel-1 .price .down-1 img, .down-2 img{
+    padding-left: 3px;
+}
+
+header .reptangel-1 .price .down-2{
+    width: 26px;
+    height: 12px;
+    margin-right: 70px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 10px;
+    line-height: 12px;
+    /* identical to box height */
+    
+    
+    color: #F3F3F3;
+}
+
+
+
+/* ----------nav------- */
+.nav-cabecera{
+    width: 1024px;
+    height: 62px;
+    padding: 0px 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: #F0A83E;
+
+}
+.nav-cabecera ul{
+    list-style: none;
+    margin: 20px;
+
+}
+.nav-cabecera ul li{
+    display: inline-block;
+    margin-left: 20px;
+
+    
+}
+.nav-cabecera ul li a{
+width: 54px;
+height: 15px;
+padding-left: 5px;
+
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 400;
+font-size: 15px;
+line-height: 15px;
+text-decoration: none;
+
+color: #FFFFFF;
+}
+
+
+ /* banner------- */
+
+.banner{
+width: 1025px;
+height: 409px;
+display: flex;
+justify-content: center;
+align-items:flex-end;
+flex-direction: column;
+
+background: url('/Vet-main/Img/bowl-and-pet-daities-on-green-background 1.png');
+}
+.banner .title-banner{
+width: 365px;
+height: 54px;
+margin: 22px;
+padding: 10px ;
+
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 400;
+font-size: 30px;
+line-height: 35px;
+text-align: center;
+
+color: #3C2313;
+
+
+background: #FFFFFF;
+border-radius: 5px;
+}
+.banner .texto-banner{
+    width: 190px;
+    height: 19px;
+    margin: 0px 95px;
+
+
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    text-align: center;
+
+    color: #3C2313;
+
+}
+
+.banner .boton-banner{ /*width: 95px; height: 19px; */margin-right: 117px; padding: 15px 23px; background-color: #F0A83E; margin-top: 12px; font-family: 'Roboto'; font-style: normal; font-weight: 400; font-size: 16px; line-height: 19px; border-radius: ; text-align: center; color: #FFFFFF; -webkit-border-radius:; -moz-border-radius:; -ms-border-radius:; -o-border-radius:;
+}
+
+/* productos---------- */
+.productos-destacados{
+    width: 834px;
+    height: 522px;
+    margin: auto;
+    margin-top: 20px;
+    
+}
+
+.productos-destacados .productos{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.productos-destacados .productos img{
+width: 67px;
+height: 71px;
+
+}
+.productos-destacados .productos h2{
+width: 406px;
+height: 47px;
+
+
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 700;
+font-size: 40px;
+line-height: 47px;
+
+
+color: #3C2313;
+
+}
+.productos-destacados .productos .nav-productos{
+width: 287px;
+height: 18px;
+margin-top: 20px;
+}
+.productos-destacados .productos .nav-productos a{
+width: 78px;
+height: 18px;
+
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 400;
+font-size: 15px;
+line-height: 18px;
+text-decoration: none;
+
+color: #666666;
+
+}
+.productos-destacados .productos .nav-productos span{
+margin: 0px 13px ;
+}
+
+.productos-destacados .card{
+    width: 834px;
+    height: 312px;
+    display: flex;
+    justify-content: space-around;
+    margin: 60px 0px;
+    text-align: center;
+
+
+
+}
+.productos-destacados .card .card-producto{
+    width: 265px;
+    height: 312px;
+
+}
+
+.productos-destacados .card .card-producto img{
+    width: 265px;
+    height: 268.86px;
+}
+.productos-destacados .card .card-producto h4{
+    
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 18px;
+
+    color: #3C2313;
+
+}
+.productos-destacados .card .card-producto p{
+    
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 18px;
+
+    color: #F0A83E;
+
+}
+
+
+/* formulario--------- */
+.formulario{
+    width: 340px;
+    height: 264px;
+    text-align: center;
+    margin: auto;
+    margin-top: 75px;
+}
+.formulario h3{
+    
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 700;
+font-size: 25px;
+line-height: 29px;
+margin-bottom: 30px;
+
+color: #3C2313;
+}
+
+.formulario form input{
+    width: 365px;
+    height: 40px;
+    text-align: start;
+    background: #3C2313;
+    border-radius: 15px;
+    margin-bottom: 10px;
+    padding: 15px 230px 14px 14px;
+    border: none;
+    
+    
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 9px;
+    line-height: 11px;
+
+
+color: #FFFFFF;
+}
+.formulario form .resetear{
+    width: 110px;
+    height: 34px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    border: none;
+
+
+    color: #FFFFFF;
+    background: #8A8787;
+    border-radius: 15px;
+
+}
+.formulario form .enviar{
+    width: 110px;
+    height: 34px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    border: none;
+
+
+    color: #FFFFFF;
+    background: #F0A83E;;
+    border-radius: 15px;
+
+}
+
+/* suscribite----------- */
+
+.suscribite{
+    width: 1024px;
+    height: 60px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 75px;
+
+
+
+    background: #F0A83E;
+}
+.suscribite .correo{
+    display: flex;
+    align-items: center;
+    margin-left:28.5px;
+}
+.suscribite .correo img{
+    margin-right: 10px;
+
+}
+.suscribite .correo p{
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 23px;
+
+    color: #FFFFFF;
+}
+.suscribite .enviar-correo{
+    display: flex;
+    align-items: center;
+    margin-right: 47px;
+
+
+}
+.suscribite .enviar-correo input{
+    width: 271px;
+    height: 40px;
+    border: none;
+    margin-right: 10px;
+    padding-left: 8px;
+
+    background: #FFFFFF;
+    border-radius: 15px;
+}
+.suscribite .enviar-correo button{
+    width: 70px;
+    height: 34px;
+    border: none;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 9px;
+    line-height: 11px;
+
+
+color: #FFFFFF;
+
+
+    background: #3C2313;
+    border-radius: 15px;
+}
+footer section {
+    width: 1024px;
+    /* height: 284px; */
+    display: flex;
+    justify-content:space-between ;
+    align-items: center;
+
+
+    background: #3C2313;
+}
+footer section .footer-datos{
+    display: flex;
+    flex-direction: column;
+    margin-left: 70px;
+
+}
+footer section .footer-datos .localidad, .telefono, .correo-electronico{
+    display:flex;
+    padding-bottom: 20px;
+    margin-top: 10px;
+}
+footer section .logo-footer{
+    width: 166px;
+    height: 23px;
+    margin-right: 70px;
+
+}
+footer section .derechos{
+width: 1024px;
+height: 20px;
+text-align: center;
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 700;
+font-size: 10px;
+line-height: 12px;
+padding: 4px 4px;
+
+color: #FFFFFF;
+
+
+background: #222222;
+}
